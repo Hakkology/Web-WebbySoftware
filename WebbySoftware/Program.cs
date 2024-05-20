@@ -29,7 +29,7 @@ namespace WebbySoftware
 
 			builder.Services.AddSingleton(builder.Configuration);
 			builder.Services.AddScoped<IWebbySoftDBContext, WebbySoftDbContext>();
-			builder.Services.AddDbContext<WebbySoftDbContext>(o => o.UseNpgsql(builder.Configuration.GetConnectionString("ElephantSQLConnection")));
+			builder.Services.AddDbContext<WebbySoftDbContext>(options => options.UseNpgsql(new WebbySoftConnStr(builder.Configuration).GetConnectionString()));
 
 
 			builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
