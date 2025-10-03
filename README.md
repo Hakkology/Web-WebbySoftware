@@ -8,31 +8,52 @@ Template for html is a free template provided from this link:
 
 ### https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
 
-Creators of this project require no financial gain from it. Whole purpose of this project was to learn and build fundamentals for these tools along with other things.
+Creators of this project required no financial gain from it. The purpose of the project was to learn and build fundamentals for ASP.NET and related tools.
 
-WebbySoftware Initiative Portfolio Project is a portfolio created with ASP.NET where Hakan Yıldız and Okan Kandemir worked in collaboration to finalize. Please refer to relevant github pages from here:
+---
 
-### https://github.com/Hakkology
+## Project History
 
-### https://github.com/KandemirOkan
+The **WebbySoftware Initiative Portfolio Project** was a portfolio created with ASP.NET where **Hakan Yıldız** and **Okan Kandemir** collaborated in the early stages. While Okan no longer contributes to this site, the project initially began with his participation.  
 
-The scope of the project is to create a basic portfolio website where we could showcase our works in thumbnails and provide query methods using ASP.NET api/view implementation.
+You can visit the GitHub pages of the contributors here:  
+- https://github.com/Hakkology  
+- https://github.com/KandemirOkan  
 
-Website is currently live at:
+---
 
-### https://webbysoftinit.com/ 
+## Current Status
 
-WebbySoftware Initiative Portfolio Project is a project completed through webapi and ASP.NET tools.
-Users (In this case project contributers) are connected to Development controllers which are categorized as game, web, mobile and desktop development with many to many relationships.
+Originally, the project was published under the domain **webbysoftinit.com**.  
+As of 2025, the project and its content have been **migrated to the new domain**:  
 
-Postgresql cloud db is used to feed the site and its contents. The database was seeded and utilized with a code first approach. 
-All content within also has links to relevant github links and, if applicable, web pages, tags, project name and description.
-Users also has relevant linkedin pages and github pages with other information such as phone number or contact information.
+### https://fatalixsoft.com.tr/
 
-All different returns were implemented with a different view model, connected through Automapper, respecting "S" of SOLID Principles.
-Each project is associated with a User, reflecting project participants.
-Later each project is presented on relevant development pages for showcasing. Guests can also use the query tool to search for Users, Project Names and Project tags.
+The previous domain **webbysoftinit.com** is no longer in use.
 
-The website is moved on a linux server on Digital Ocean and no longer suffers from slow loading times or downtimes. The server is available 24/7.
+---
 
-Feel free to give your comments.
+## Technical Scope
+
+The scope of the project was to create a basic portfolio website where works could be showcased in thumbnails and queried through ASP.NET API/View implementations.  
+
+- **Database**: PostgreSQL cloud DB with code-first approach  
+- **Architecture**: WebAPI + ASP.NET tools  
+- **Features**:  
+  - Projects categorized as game, web, mobile, and desktop development  
+  - Many-to-many relationships for Users ↔ Projects  
+  - AutoMapper used for view models  
+  - Content includes GitHub links, LinkedIn pages, project descriptions, and tags  
+- **SOLID Principles**: Especially respecting the "S" (Single Responsibility Principle)  
+
+---
+
+## Hosting
+
+The website is hosted on a Linux server (DigitalOcean) and is available 24/7 under the new **FatalixSoft** domain.  
+
+---
+
+## Feedback
+
+Feel free to provide comments or suggestions.
